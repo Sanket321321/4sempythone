@@ -1,0 +1,18 @@
+Write a Python program to accept n numbers in list and remove duplicates from a list
+
+print () 
+num = int(input("Enter the length of the list:")) 
+l = []
+
+for i in range(0, num) : 
+  n = int(input("Enter number:"))
+  l. append(n)  
+  
+print (l) 
+
+for i in range(0,len(l)-1): 
+  for j in range(i,len(l)-1):
+    if l[i] == l[j] and i!=j:
+      l.remove(l[j]) 
+
+print (l)

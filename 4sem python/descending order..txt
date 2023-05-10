@@ -1,0 +1,15 @@
+Write a Python program to accept n numbers in list. Find average of list and sort it in descending order.
+print()
+num = int(input ("Enter the total number:"))
+l = [] 
+ 
+for i in range(0, num): 
+   num = int(input("Enter the number:"))
+   l. append(num)
+
+avg = sum(l)/len(l) 
+print("Average is:",avg) 
+
+l = sorted (l) 
+
+print (l[::-1])

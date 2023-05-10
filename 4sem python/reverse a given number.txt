@@ -1,0 +1,8 @@
+Write a Python program to reverse a given number 
+
+num = int(input("Enter the Number:")) 
+print ("Reverse number is:",end="")
+while(num > 0): 
+  rem = num%10 
+  print (rem,end="")
+  num = num//10 

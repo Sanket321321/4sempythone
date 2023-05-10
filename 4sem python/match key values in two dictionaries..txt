@@ -1,0 +1,11 @@
+Write a Python program to match key values in two dictionaries.
+
+s=  {'key1': 1, 'key2': 2, 'key3': 2}
+s1 ={'key1': 1, 'key2': 2}
+
+#Expected output: key1: 1 is present in both x and y 
+
+for i in s: 
+  if i in s1: 
+     if s[i] == s1[i] : 
+       print (f"{i} :{s[i]} is present in both set")

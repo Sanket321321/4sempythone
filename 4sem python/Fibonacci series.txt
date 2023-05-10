@@ -1,0 +1,14 @@
+Write a program which prints Fibonacci series of a number.
+
+num = int(input("Enter the number:")) 
+
+n1 = 0 
+n2 = 1
+n3 = n1 + n2 
+print (n1,n2,n3,end=" ")
+
+for i in range(0, num-3):
+  n1 = n2 
+  n2 = n3 
+  n3 = n1 + n2 
+  print (n3,end=" ")

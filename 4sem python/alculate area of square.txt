@@ -1,0 +1,6 @@
+Write an anonymous function to calculate area of square 
+
+square = lambda side : side ** 2
+
+print(square(5)) 
+

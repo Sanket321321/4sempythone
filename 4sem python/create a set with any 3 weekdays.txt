@@ -1,0 +1,10 @@
+Write a Python program to create a set with any 3 weekdays. Add single element to the set and print it. Add multiple elements and print the set.
+
+s = {'sun', 'mon', 'tus'} 
+print (s)
+s.add(5)
+print (s)
+
+s1 = {6,9,8}
+s.update(s1) 
+print (s)

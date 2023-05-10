@@ -1,0 +1,8 @@
+Write a Python program to accept string and remove the characters which have odd index values of a given string using user defined function.
+
+str =input("Enter the String:")
+
+for ch in range(0,len(str)): 
+ # print (ch)
+  if  ch%2 != 0: 
+     print (str[ch],end="") 

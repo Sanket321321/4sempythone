@@ -1,0 +1,11 @@
+Write a Python program to create a dictionary from a string.
+#Sample String: ’Hello all’
+#Expected output: {'e': 1, 'o': 1, 'a': 1, 'l': 4, 'H': 1} 
+
+s = "Helloall" 
+s1 = {} 
+
+for i in s :
+    s1[i] = s.count(i) 
+
+print (s1)

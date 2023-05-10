@@ -1,0 +1,10 @@
+Write a Python program to find the length of a string without using built-in function 
+
+def findlen(str): 
+   i = 0;
+   for ch in str:
+     i = i+1 
+   print ("Total Length of the string is:",i) 
+
+str = input("Enter the string:")
+findlen(str)

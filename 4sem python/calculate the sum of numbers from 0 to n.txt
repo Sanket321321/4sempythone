@@ -1,0 +1,10 @@
+#Write a function to calculate the sum of numbers from 0 to n
+
+def add(): 
+  sum = 0
+  n = int(input("Enter the Num:")) 
+  for i in range(0, n+1) :
+    sum = sum + i
+  print ("Sum is:",sum)
+
+add() 

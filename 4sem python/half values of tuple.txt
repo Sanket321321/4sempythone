@@ -1,0 +1,6 @@
+Write a Python program to create tuple of n numbers, print the first half values of tuple in one line and the last half values of tuple on next line.
+
+t = (1, 2,3,4,5,6,7) 
+m= int(len(t) /2) 
+print(t[0:m])
+print (t[m:])

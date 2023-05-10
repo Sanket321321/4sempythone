@@ -1,0 +1,11 @@
+Write a Python function to check whether a number is in a given range.
+
+def inrange(start, end, num):
+  if(num >= start and num<=end): 
+     print("in range")
+  else: 
+    print("not in range")
+
+
+inrange(10,20,15) 
+inrange(10,12,16)

@@ -1,0 +1,5 @@
+Write a Python program to print average of all elements of sets
+s = {5, 5,5,2,4,9} 
+sum = sum(s)
+avg = sum/len(s)
+print (avg)

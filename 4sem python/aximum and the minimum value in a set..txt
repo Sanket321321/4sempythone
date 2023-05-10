@@ -1,0 +1,7 @@
+Write a Python program to find maximum and the minimum value in a set.
+
+s = [1,5,4,9,6,3]
+
+print ("Max is:",max(s))
+print ("min is:",min(s))
+

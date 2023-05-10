@@ -1,0 +1,15 @@
+Write a Python program to count frequency of each character in a given string using user defined function.
+
+def count_char(string): 
+   for i in string: 
+     s[i] = string.count(i) 
+
+
+s = {}
+str = input("Enter the string:") 
+count_char(str) 
+
+print (s)
+
+for i in s: 
+  print (f"{i} appere in {s[i]} time")

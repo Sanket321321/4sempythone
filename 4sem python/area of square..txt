@@ -1,0 +1,4 @@
+Write an anonymous function to calculate area of square.
+a = 5
+ans = lambda a:a*a;
+print ("Area of the Square is:",ans(5)) 

@@ -1,0 +1,15 @@
+Write a Python program to display occurrence of the elements in the tuple, which appears more than 2 times.
+
+t = [1,1,2,3,4,5,2,2,2,6,7,8,1,2,1] 
+
+s = []
+for i in range(0,len(t)):
+  k=0
+  for j in range(0, len(t)):
+    if t[i] == t[j] and i!=j: 
+       k = k +1
+  if k > 2:
+    s.append(t[i])
+    
+  
+print (set(s))
